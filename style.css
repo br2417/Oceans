@@ -26,10 +26,17 @@ div {
 	border-style: solid;
 	float: left;
 	text-align: center;
+	cursor: pointer; 
 	
 	/* above could also have been written like so
 	border: 1px solid black;
 	*/
+}
+
+.disabled {
+	cursor: default; 
+	border-color: gray;
+	color: gray;
 }
 
 .image-holder {
